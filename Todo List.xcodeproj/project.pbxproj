@@ -14,6 +14,9 @@
 		4E554EA02B8978DC000C7232 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E554E9F2B8978DC000C7232 /* Assets.xcassets */; };
 		4E554EA32B8978DC000C7232 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E554EA22B8978DC000C7232 /* Preview Assets.xcassets */; };
 		4E554EAE2B8978DC000C7232 /* Todo_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E554EAD2B8978DC000C7232 /* Todo_ListTests.swift */; };
+		4E554EB82B8AC4C6000C7232 /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E554EB72B8AC4C6000C7232 /* TodoListView.swift */; };
+		4E554EBA2B8AC5DE000C7232 /* TodoInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E554EB92B8AC5DE000C7232 /* TodoInputView.swift */; };
+		4E554EBC2B8AC7B5000C7232 /* TodoClearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E554EBB2B8AC7B5000C7232 /* TodoClearView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,9 @@
 		4E554EA42B8978DC000C7232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E554EA92B8978DC000C7232 /* Todo ListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Todo ListTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E554EAD2B8978DC000C7232 /* Todo_ListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo_ListTests.swift; sourceTree = "<group>"; };
+		4E554EB72B8AC4C6000C7232 /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
+		4E554EB92B8AC5DE000C7232 /* TodoInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoInputView.swift; sourceTree = "<group>"; };
+		4E554EBB2B8AC7B5000C7232 /* TodoClearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoClearView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,10 +88,13 @@
 			children = (
 				4E554E992B8978DA000C7232 /* Todo_ListApp.swift */,
 				4E554E9B2B8978DA000C7232 /* ContentView.swift */,
+				4E554EBB2B8AC7B5000C7232 /* TodoClearView.swift */,
 				4E554E9D2B8978DA000C7232 /* ImmersiveView.swift */,
 				4E554E9F2B8978DC000C7232 /* Assets.xcassets */,
 				4E554EA42B8978DC000C7232 /* Info.plist */,
 				4E554EA12B8978DC000C7232 /* Preview Content */,
+				4E554EB72B8AC4C6000C7232 /* TodoListView.swift */,
+				4E554EB92B8AC5DE000C7232 /* TodoInputView.swift */,
 			);
 			path = "Todo List";
 			sourceTree = "<group>";
@@ -218,7 +227,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E554E9C2B8978DA000C7232 /* ContentView.swift in Sources */,
+				4E554EBA2B8AC5DE000C7232 /* TodoInputView.swift in Sources */,
 				4E554E9A2B8978DA000C7232 /* Todo_ListApp.swift in Sources */,
+				4E554EB82B8AC4C6000C7232 /* TodoListView.swift in Sources */,
+				4E554EBC2B8AC7B5000C7232 /* TodoClearView.swift in Sources */,
 				4E554E9E2B8978DA000C7232 /* ImmersiveView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
